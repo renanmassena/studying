@@ -1,0 +1,23 @@
+paymentdata.csv: customer’s card payment history. id: customer id OVDt1: number of times overdue type 1
+OVDt2: number of times overdue type 2 OVDt3: number of times overdue type 3
+OVDsum: total overdue days paynormal: number of times normal payment
+prodcode: credit product code prodlimit: credit limit of product
+updatedate: account update date newbalance: current balance of product
+highestbalance: highest balance in history reportdate: date of recent payment
+
+customer_data.csv:
+customer’s demographic data and category attributes which have been encoded.
+Category features are fea1, fea3, fea5, fea6, fea7, fea9.
+label is 1, the customer is in high credit risk
+label is 0, the customer is in low credit risk
+
+Acknowledgements
+Thanks to Google Datasets search
+
+Inspiration
+Your data will be in front of the world's largest data science community. What questions do you want to see answered?
+
+This dataset help to find out weather customer is Credit Risky or Credit Worthy in Banking perspective
+
+Q1 - What are the factors contributing to Credit Risky customer ?
+Q2 - Behaviour of Credit Worthy Customer ?
